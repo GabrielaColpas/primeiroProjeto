@@ -1,0 +1,210 @@
+.topo{
+    background-image: url(../image/bg-3.jpg);
+    background-position: right center;
+    background-size: cover;
+    height: 500px;
+    text-align: right;
+    border-top: 1px solid transparent;
+    }
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+a{
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration-line: none;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: block;
+    letter-spacing: 1.5px;
+}
+a:hover{
+    color: rgb(76, 224, 243);
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 2px solid rgb(76, 224, 243);
+}
+.topo-pagina{
+    text-align: center;
+    color: #fff;
+}
+.topo-pagina h1{
+    text-transform: uppercase;
+    font-size:46px;
+    text-shadow: 3px 3px 2px #333;
+    margin: auto;
+    padding-top: 100px;
+}
+main{
+    width: 80%;
+    margin: auto;
+}
+.content-img{
+    background-color: white;
+    padding: 5px;
+    margin-top: 15px;
+    overflow: auto;
+}
+.card{
+    width: 33%;
+    float: left;
+    box-sizing: border-box;
+}
+.card:hover{
+    outline: 3px solid rgb(76, 224, 243);
+    background-color: rgba(0, 0, 0, 0.8);
+    transform: translateY(-2px);
+}
+.card p:hover{
+    color: rgb(76, 224, 243);
+}
+.card-1, .card-2{
+    margin-right: .5%;
+}
+.card img{
+    display: block;
+    width: 100%;
+}
+.card p{
+    font-size: 10px;
+    padding: 10px;
+    margin: 0%;
+    background-color: #444;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    font-weight: 600;
+}
+.content-section{
+    background-color: white;
+    padding: 30px 15px;
+    margin-top: 15px;
+}
+.content-section header h2{
+    color: black;
+    font-size: 25px;
+    width: 100%;
+    height: 30px;
+    margin: auto;
+    text-align: center;
+}
+.content-section p{
+    text-align: center;
+    width: 80%;
+    margin: 20px auto;
+    color: #878787;
+    line-height: 1.5;
+    font-size: 20px;
+}
+.logo-img{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    background-color: #fff;
+    padding: 20px 0;
+    width: 50%;
+    margin: 0 auto;
+}
+.formulario{
+    padding: 50px 0;
+    display: inline-block;
+    margin: 0 auto;
+    width: 100%;
+}
+.formulario h2{
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+#nome, #email, #msg{
+    display: block;
+    width: 90%;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+#nome:focus, #email:focus, #msg:focus{
+    border: 1px solid rgb(76, 224, 243);
+}
+#msg{
+    height: 70%;
+    padding-left: 10px;
+}
+form{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 80%;
+    margin: 0 auto;
+}
+.dados{
+    grid-column: 1/2;
+    padding-bottom: 5px;
+    width: 70%;
+    padding-left: 110px;
+}
+.dados label{
+    text-align: left;
+}
+.email-label{
+    display: inline-block;
+}
+.dados.nome{
+    grid-row: 1/2;
+}
+.dados.email{
+    grid-row: 2/3;
+}
+.dados input{
+    padding: 5px 0;
+}
+.msg{
+    grid-column: 2/-1;
+    grid-row: 1/3;
+    width: 70%;
+}
+.button{
+    padding-top: 10px;
+    grid-column: 1/-1;
+    text-align: center;
+}
+button{
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: black;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.2);
+    letter-spacing: 1.5px;
+    margin-top: 10px;
+}
+button:hover{
+    color: rgb(76, 224, 243);
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 1px solid rgb(76, 224, 243);
+}
+.btn-enviar{
+    margin-right: 20px;
+}
+.btn-apagar{
+    margin-right: 20px;
+}
+footer{
+    background-color: #444444;
+}
+footer p{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    margin: 0 auto;
+    padding: 10px 0;
+
+}
